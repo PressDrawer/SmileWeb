@@ -1,0 +1,131 @@
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">
+    <div class="container">
+        <div class="row fullscreen align-items-center justify-content-center">
+          <div class="banner-content col-lg-6 col-md-12">
+            <h1 class="text-uppercase">
+              We are here for <br>
+              Make you happy!
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.
+            </p>
+            <button class="primary-btn2 mt-20 text-uppercase ">Get Started<span class="lnr lnr-arrow-right"></span></button>
+          </div>
+          <div class="col-lg-6 d-flex align-self-end img-right">
+            <img class="img-fluid" src="../assets/img/header-img.png" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- End banner Area -->
+  
+  <!-- Start feature Area -->
+  <section class="feature-area section-gap" id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="single-feature d-flex flex-row pb-30">
+            <div class="icon">
+              <span class="lnr lnr-rocket"></span>
+            </div>
+            <div class="desc">
+              <h4 class="text-uppercase">cbt</h4>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              </p>
+            </div>
+          </div>
+          <div class="single-feature d-flex flex-row pb-30">
+            <div class="icon">
+              <span class="lnr lnr-chart-bars"></span>
+            </div>
+            <div class="desc">
+              <h4 class="text-uppercase">day care</h4>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              </p>
+            </div>
+          </div>
+          <div class="single-feature d-flex flex-row">
+            <div class="icon">
+              <span class="lnr lnr-bug"></span>
+            </div>
+            <div class="desc">
+              <h4 class="text-uppercase">Intensive Care</h4>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-feature d-flex flex-row pb-30">
+            <div class="icon">
+              <span class="lnr lnr-heart-pulse"></span>
+            </div>
+            <div class="desc">
+              <h4 class="text-uppercase">counselling</h4>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              </p>
+            </div>
+          </div>
+          <div class="single-feature d-flex flex-row pb-30">
+            <div class="icon">
+              <span class="lnr lnr-paw"></span>
+            </div>
+            <div class="desc">
+              <h4 class="text-uppercase">Leadership training</h4>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              </p>
+            </div>
+          </div>
+          <div class="single-feature d-flex flex-row">
+            <div class="icon">
+              <span class="lnr lnr-users"></span>
+            </div>
+            <div class="desc">
+              <h4 class="text-uppercase">gaming</h4>
+              <p>
+                inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="consultans-area section-gap" id="consultant">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 pb-80 header-text">
+          <h1>Our Consultants</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-lg-3 col-md-3 vol-wrap" *ngFor = 'let doctor of doctors'>
+          <div class="single-con">
+            <div class="content">
+                <a href="#" target="_blank">
+                  <div class="content-overlay"></div>
+                   <img class="content-image img-fluid d-block mx-auto" src="../assets/img/c1.jpg" alt="">
+                    <div class="content-details fadeIn-bottom">
+                      <h4>{{doctor.FirstName}} {{doctor.LastName}}</h4>
+                      <h4>{{doctor.RegNumber}}</h4>
+                      <p>
+                        {{doctor.Description}}
+                      </p>
+                    </div>
+                </a>
+             </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
+         <!-- End feature Area -->
